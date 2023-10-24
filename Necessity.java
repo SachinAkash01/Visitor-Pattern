@@ -5,6 +5,7 @@ class Necessity implements Visitable {
 		price = item;
 	}
 
+    @Override
 	public double accept(Visitor visitor) {
 		return visitor.visit(this);
 	}
