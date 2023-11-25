@@ -1,11 +1,11 @@
 class Liquor implements Visitable {
 	private double price;
-
+	
 	Liquor(double item) {
 		price = item;
 	}
 
-    @Override
+	@Override
 	public double accept(Visitor visitor) {
 		return visitor.visit(this);
 	}
