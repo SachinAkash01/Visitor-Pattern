@@ -13,7 +13,7 @@ class TaxVisitor implements Visitor {
 	
 	// Calculates total price based on this being taxed
 	// as a liquor item
-    @Override
+    	@Override
 	public double visit(Liquor liquorItem) {
 		System.out.println("Liquor Item: Price with Tax");
 		return Double.parseDouble(df.format((liquorItem.getPrice() * .18) + liquorItem.getPrice()));
@@ -21,7 +21,7 @@ class TaxVisitor implements Visitor {
 	
 	// Calculates total price based on this being taxed
 	// as a tobacco item
-    @Override
+    	@Override
 	public double visit(Tobacco tobaccoItem) {
 		System.out.println("Tobacco Item: Price with Tax");
 		return Double.parseDouble(df.format((tobaccoItem.getPrice() * .32) + tobaccoItem.getPrice()));
