@@ -29,7 +29,7 @@ class TaxVisitor implements Visitor {
 	
 	// Calculates total price based on this being taxed
 	// as a necessity item
-    @Override
+    	@Override
 	public double visit(Necessity necessityItem) {
 		System.out.println("Necessity Item: Price with Tax");
 		return Double.parseDouble(df.format(necessityItem.getPrice()));
