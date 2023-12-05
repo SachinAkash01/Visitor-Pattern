@@ -1,3 +1,4 @@
+//K D Sachin Akash | 2023
 class Liquor implements Visitable {
 	private double price;
 	
