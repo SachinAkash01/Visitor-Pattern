@@ -2,7 +2,6 @@
 import java.text.DecimalFormat;
 
 // Concrete Visitor Class
-
 class TaxVisitor implements Visitor {
 	// This formats the item prices to 2 decimal places
 	DecimalFormat df = new DecimalFormat("#.##");
