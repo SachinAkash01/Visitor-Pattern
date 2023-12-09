@@ -1,3 +1,4 @@
+//K D Sachin Akash | 2023
 // The visitor pattern is used when you have to perform
 // the same action on many objects of different types
 interface Visitor {
